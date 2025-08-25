@@ -4,7 +4,7 @@ function M.hello_world()
 end
 
 vim.api.nvim_create_user_command(
-  "Hackavim",               
+  "Hackavim",
   function()
     M.hello_world()
   end,
