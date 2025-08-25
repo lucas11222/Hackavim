@@ -2,7 +2,7 @@ local M = {}
 function M.hello_world()
   print("Hello, World!")
 end
-
+print("Hello from Hackavim")
 vim.api.nvim_create_user_command(
   "Hackavim",
   function()
