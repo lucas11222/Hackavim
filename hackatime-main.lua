@@ -5,6 +5,6 @@ function M.hello_world()
 end
 
 -- Map a command to the function
-vim.api.nvim_command('command! Hackatime-dashboard lua require("hackatime-dashboard").hello_world()')
+vim.api.nvim_command('command! hackatime lua require("Hackavim").hello_world()')
 
 return M
