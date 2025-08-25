@@ -3,9 +3,11 @@ function M.hello_world()
   print("Hello, World!")
 end
 
-vim.api.nvim_create_user_command('BufOnly',function()
-  pcall(function()
+vim.api.nvim_create_user_command(
+  "Hackavim",               
+  function()
     M.hello_world()
-  end)
-end,{})
+  end,
+  {}
+)
 return M
