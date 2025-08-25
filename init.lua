@@ -6,10 +6,10 @@ end
 
 -- Map a command to the function
 vim.api.nvim_create_user_command(
-  "Hackatime",                     -- command name (must start uppercase)
+  "Hackatime",
   function()
-    require("Hackavim").hello_world()  -- call your Lua function
+    require("Hackavim").hello_world()
   end,
-  {}                               -- options
+  {}
 )
 return M
